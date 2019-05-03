@@ -152,6 +152,48 @@ android:background="#FF4378F8"*/
 	font-size: 18px;
 }
 
+
+
+
+
+
+/*section_two_start_here*/
+
+
+.section_two{
+	background-image: linear-gradient( #D5E2FF,#FFFFFF);
+}
+
+.body_h1_tag{
+padding-top: 110px;
+
+
+ }
+.body_h1_tag h2{
+	font-family: Helvetica;
+	font-size: 40px;
+	color: #121C25;
+	letter-spacing: 0;
+	line-height: 55px;
+	height: 153px;
+	/*width: 463px;*/
+}
+
+.body_p_tag p{
+font-family: Roboto-Regular;
+font-size: 16px;
+color: #121C25;
+letter-spacing: 0;
+line-height: 30px;
+}
+
+
+
+
+
+
+
+
 /*@ media query */
 
 @media only screen and (max-width: 600px){
@@ -185,7 +227,7 @@ android:background="#FF4378F8"*/
 
 /*start_button*/
 .start_button{
-	padding-top: 50px;
+	padding-top: 40px;
 }
 .btn_background {
     height: 244px;
@@ -201,5 +243,12 @@ android:background="#FF4378F8"*/
     font-size: 13px
 }
 
+@media (max-width: 767px){
+  .row_reverse_style{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+}
 
 }
