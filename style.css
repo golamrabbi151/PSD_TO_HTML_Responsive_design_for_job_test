@@ -164,12 +164,12 @@ android:background="#FF4378F8"*/
 	background-image: linear-gradient( #D5E2FF,#FFFFFF);
 }
 
-.body_h1_tag{
+.body_h2_tag{
 padding-top: 110px;
 
 
  }
-.body_h1_tag h2{
+.body_h2_tag h2{
 	font-family: Helvetica;
 	font-size: 40px;
 	color: #121C25;
